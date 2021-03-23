@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="0">
+<testcase classname="Application Login" name="Home Page default Login" time="0">
+<system-out><![CDATA[Given User is on landing page...............................................skipped
+When User is login into application with "shobhit" and "1234"...............skipped
+Then Home Page is populated.................................................skipped
+And Cards displayed "true"..................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home Page default Login" time="0">
+<system-out><![CDATA[Given User is on landing page...............................................skipped
+When User is login into application with "jin" and "1234"...................skipped
+Then Home Page is populated.................................................skipped
+And Cards displayed "false".................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home Page default Login" time="0">
+<system-out><![CDATA[Given Validate the browser..................................................skipped
+When Browser is triggered...................................................skipped
+Then check if browser is started............................................skipped
+Given User is on landing page...............................................skipped
+When User is login into application with "shobhit" and "1234"...............skipped
+Then Home Page is populated.................................................skipped
+And Cards displayed "true"..................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home Page default Login" time="0">
+<system-out><![CDATA[Given Validate the browser..................................................skipped
+When Browser is triggered...................................................skipped
+Then check if browser is started............................................skipped
+Given User is on landing page...............................................skipped
+When User is login into application with "jin" and "1234"...................skipped
+Then Home Page is populated.................................................skipped
+And Cards displayed "false".................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home Page default Login" time="0">
+<system-out><![CDATA[Given Validate the browser..................................................skipped
+When Browser is triggered...................................................skipped
+Then check if browser is started............................................skipped
+Given User is on landing page...............................................skipped
+When User is login in to application with abc and 123.......................skipped
+Then Home Page is populated.................................................skipped
+And Cards displayed "false".................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home Page default Login 2" time="0">
+<system-out><![CDATA[Given Validate the browser..................................................skipped
+When Browser is triggered...................................................skipped
+Then check if browser is started............................................skipped
+Given User is on landing page...............................................skipped
+When User is login in to application with xyz and 456.......................skipped
+Then Home Page is populated.................................................skipped
+And Cards displayed "false".................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home Page default Login" time="0">
+<system-out><![CDATA[Given Validate the browser..................................................skipped
+When Browser is triggered...................................................skipped
+Then check if browser is started............................................skipped
+Given User is on landing page...............................................skipped
+When User sign up with following details....................................skipped
+Then Home Page is populated.................................................skipped
+And Cards displayed "false".................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
