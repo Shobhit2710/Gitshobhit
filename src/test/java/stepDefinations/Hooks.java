@@ -9,12 +9,14 @@ public class Hooks {
 	public void validation()
 	{
 		System.out.println("Mobile Before Running Hooks");
+		System.out.println("changes for git");
 	}
 	
 	@After("@MobileTest")
 	public void verification()
 	{
 		System.out.println("Mobile After Running Hooks");
+		System.out.println("changes for git");
 	}
 	
 	@Before("@WebTest")
