@@ -10,6 +10,7 @@ public class Hooks {
 	{
 		System.out.println("Mobile Before Running Hooks");
 		System.out.println("changes for git");
+		System.out.println("changes for git1");
 	}
 	
 	@After("@MobileTest")
